@@ -1,0 +1,39 @@
+body {
+  background-color: #5da3fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 500px;
+  background-color: #cad5e2;
+  transform: translate(40%, 20%);
+  padding: 40px;
+  text-align: center;
+  border: 2px solid black;
+}
+.search-bar {
+  cursor: pointer;
+  text-align: center;
+}
+
+.header > h1,
+h2 {
+  font-size: 2.3em;
+  font-weight: 400;
+  color: #5a20cb;
+}
+.header > input {
+  width: 80%;
+  height: 30px;
+  font-size: 1.2em;
+  padding: 10px;
+}
+.last-entries {
+  text-align: left;
+  list-style-type: none;
+}
+
+.main-conatiner > p {
+  font-size: 1.2em;
+}
